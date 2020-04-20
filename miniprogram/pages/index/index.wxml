@@ -1,2 +1,19 @@
-<!--miniprogram/pages/index/index.wxml-->
-<text>miniprogram/pages/index/index.wxml</text>
+<view class="page">
+  <view class="text">
+    <text class="text1">上传带有人像的照片,智能裁剪可以防止人像被切割,从而获得更好的缩略图体验</text>
+  </view>
+  <view class="img">
+    <image class="yuan" mode="widthFix" src="{{yuan_img != '' ? yuan_img : '/images/tempImage/yuan.png'}}"></image>
+    <view class="cai">
+      <image class="cai1" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai1.png'}}"></image>
+      <image class="cai2" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai2.png'}}"></image>
+      <image class="cai3" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai3.png'}}"></image>
+    </view>
+  </view>
+  <view class="my_button" bindtap="upload">
+    <view class="btn">
+      <image src="/images/yun_icon.png" class="btn_img"></image>
+      <text class="btn_text">上传</text>
+    </view>
+  </view>
+</view>
