@@ -6,14 +6,14 @@
     <image class="yuan" mode="widthFix" src="{{yuan_img != '' ? yuan_img : '/images/tempImage/yuan.png'}}"></image>
     <view class="cai">
       <image class="cai1" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai1.png'}}"></image>
-      <image class="cai2" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai2.png'}}"></image>
-      <image class="cai3" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai3.png'}}"></image>
+      <image class="cai2" src="{{cai2_img != '' ? cai2_img : '/images/tempImage/cai2.png'}}"></image>
+      <image class="cai3" src="{{cai3_img != '' ? cai3_img : '/images/tempImage/cai3.png'}}"></image>
     </view>
   </view>
   <view class="my_button" bindtap="upload">
     <view class="btn">
       <image src="/images/yun_icon.png" class="btn_img"></image>
-      <text class="btn_text">上传</text>
+      <text class="btn_text">上 传</text>
     </view>
   </view>
 </view>

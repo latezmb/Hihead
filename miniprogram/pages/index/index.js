@@ -47,7 +47,7 @@ Page({
                     yuan_img: fileID,
                     cai1_img: res.result + "?imageMogr2/scrop/100x100",
                     cai2_img: res.result + "?imageMogr2/scrop/300x200",
-                    cai3_img: res.result + "?imageMogr2/scrop/200x100"
+                    cai3_img: res.result + "?imageMogr2/scrop/160x90"
                   })
                 })
               }else {

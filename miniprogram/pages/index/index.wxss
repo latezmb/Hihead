@@ -5,63 +5,61 @@
   height: 100%;
 }
 .page .text {
-  margin: 50rpx 50rpx 0rpx 50rpx;
+  margin: 60rpx 58rpx 0rpx 76rpx;
   text-align: center;
   color: "#BCBCBC";
 }
 .page .text .text1 {
   color: #BCBCBC;
-  font-size: 15px;
+  font-size: 14px;
 }
 .page .img {
   display: flex;
   flex-direction: column;
-  
 }
 .page .img .yuan {
-  width: 650rpx;
-  margin: 50rpx 50rpx 0rpx 50rpx;
+  width: 600rpx;
+  margin: 60rpx 74rpx 0rpx 76rpx;
 }
 .page .img .cai{
   display: flex;
   flex-direction: row;
-  margin: 50rpx 20rpx 0rpx 20rpx;
 }
-.page .img .cai .cai1 {
+.page .cai .cai1 {
   width: 100rpx;
   height: 100rpx;
-  margin-left: 30rpx;
-  margin-top: 50rpx;
+  margin-left: 64rpx;
+  margin-top: 112rpx;
 }
-.page .img .cai .cai2 {
+.page .cai .cai2 {
   width: 300rpx;
   height: 200rpx;
-  margin: 0rpx 25rpx 0rpx 50rpx;
+  margin: 60rpx 34rpx 0rpx 62rpx;
 }
-.page .img .cai .cai3 {
-  width: 200rpx;
-  height: 100rpx;
-  margin-top: 50rpx;
+.page .cai .cai3 {
+  width: 160rpx;
+  height: 90rpx;
+  margin-top: 116rpx;
 }
 .page .my_button {
   background-color: #3172EE;
   width: 100%;
-  height: 180rpx;
+  height: 150rpx;
   position: absolute;
   bottom: 0%;
 }
 .page .my_button .btn {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 40rpx;
+  margin-top: 34rpx;
 }
-.page .my_button .btn .btn_img {
-  width: 50rpx;
-  height: 50rpx;
-  margin-right: 20rpx;
+.page .btn .btn_img {
+  width: 54rpx;
+  height: 42rpx;
+  margin-right: 24rpx;
+  margin-left: 294rpx;
 }
-.page .my_button .btn .btn_text {
+.page .btn .btn_text {
   font-size: 35rpx;
   color: white;
 }
