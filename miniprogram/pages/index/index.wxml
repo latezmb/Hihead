@@ -3,11 +3,11 @@
     <text class="text1">上传带有人像的照片,智能裁剪可以防止人像被切割,从而获得更好的缩略图体验</text>
   </view>
   <view class="img">
-    <image class="yuan" mode="widthFix" src="{{yuan_img != '' ? yuan_img : '/images/tempImage/yuan.png'}}"></image>
-    <view class="cai">
-      <image class="cai1" src="{{cai1_img != '' ? cai1_img : '/images/tempImage/cai1.png'}}"></image>
-      <image class="cai2" src="{{cai2_img != '' ? cai2_img : '/images/tempImage/cai2.png'}}"></image>
-      <image class="cai3" src="{{cai3_img != '' ? cai3_img : '/images/tempImage/cai3.png'}}"></image>
+    <image class="primary" mode="widthFix" src="{{primaryImg != '' ? primaryImg : '/images/tempImage/yuan.png'}}"></image>
+    <view class="cut">
+      <image class="cut-1" src="{{cutImg1 != '' ? cutImg1 : '/images/tempImage/cai1.png'}}"></image>
+      <image class="cut-2" src="{{cutImg2 != '' ? cutImg2 : '/images/tempImage/cai2.png'}}"></image>
+      <image class="cut-3" src="{{cutImg3 != '' ? cutImg3 : '/images/tempImage/cai3.png'}}"></image>
     </view>
   </view>
   <view class="my_button" bindtap="upload">

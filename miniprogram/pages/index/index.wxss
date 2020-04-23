@@ -4,62 +4,62 @@
   flex-direction: column;
   height: 100%;
 }
-.page .text {
+.text {
   margin: 60rpx 58rpx 0rpx 76rpx;
   text-align: center;
   color: "#BCBCBC";
 }
-.page .text .text1 {
+.text1 {
   color: #BCBCBC;
   font-size: 14px;
 }
-.page .img {
+.img {
   display: flex;
   flex-direction: column;
 }
-.page .img .yuan {
+.primary {
   width: 600rpx;
   margin: 60rpx 74rpx 0rpx 76rpx;
 }
-.page .img .cai{
+.cut{
   display: flex;
   flex-direction: row;
 }
-.page .cai .cai1 {
+.cut-1 {
   width: 100rpx;
   height: 100rpx;
   margin-left: 64rpx;
   margin-top: 112rpx;
 }
-.page .cai .cai2 {
+.cut-2 {
   width: 300rpx;
   height: 200rpx;
   margin: 60rpx 34rpx 0rpx 62rpx;
 }
-.page .cai .cai3 {
+.cut-3 {
   width: 160rpx;
   height: 90rpx;
   margin-top: 116rpx;
 }
-.page .my_button {
+.my_button {
   background-color: #3172EE;
   width: 100%;
   height: 150rpx;
   position: absolute;
   bottom: 0%;
 }
-.page .my_button .btn {
+.btn {
   display: flex;
   flex-direction: row;
   margin-top: 34rpx;
 }
-.page .btn .btn_img {
+.btn_img {
   width: 54rpx;
   height: 42rpx;
   margin-right: 24rpx;
   margin-left: 294rpx;
 }
-.page .btn .btn_text {
+.btn_text {
   font-size: 35rpx;
   color: white;
 }

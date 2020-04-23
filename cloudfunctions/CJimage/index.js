@@ -11,7 +11,6 @@ cloud.init()
 
 //裁剪函数
 async function process(cloudPath) {
-  
   try {
     const opts = {
       rules: [

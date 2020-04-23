@@ -2,10 +2,10 @@ let fileID
 // miniprogram/pages/index/index.js
 Page({
   data: {
-    yuan_img: "",
-    cai1_img: "",
-    cai2_img: "",
-    cai3_img: ""
+    primaryImg: "",
+    cutImg1: "",
+    cutImg2: "",
+    cutImg3: ""
   }, 
   upload: function () {
     //选择上传的图片
@@ -34,7 +34,8 @@ Page({
               }
             }).then(res => {
               console.log(res)
-              if (res.result.PoliticsInfo.Code == 0 && res.result.PornInfo.Code == 0 && res.result.TerroristInfo.Code == 0) {
+              const { result: { PoliticsInfo = {}, PornInfo = {}, TerroristInfo = {} } } = res
+              if (PoliticsInfo.Code === 0 && PornInfo.Code === 0 && TerroristInfo.Code === 0) {
                 //智能截图
                 wx.cloud.callFunction({
                   name: "CJimage",
@@ -44,11 +45,12 @@ Page({
                 }).then(res => {
                   console.log(res)
                   this.setData({
-                    yuan_img: fileID,
-                    cai1_img: res.result + "?imageMogr2/scrop/100x100",
-                    cai2_img: res.result + "?imageMogr2/scrop/300x200",
-                    cai3_img: res.result + "?imageMogr2/scrop/160x90"
+                    primaryImg: res.result,
+                    cutImg1: res.result + "?imageMogr2/scrop/100x100",
+                    cutImg2: res.result + "?imageMogr2/scrop/300x200",
+                    cutImg3: res.result + "?imageMogr2/scrop/160x90"
                   })
+                  fileID = ""
                 })
               }else {
                 wx.showToast({
